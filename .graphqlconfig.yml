@@ -1,0 +1,15 @@
+projects:
+  ecshopmall_api:
+    schemaPath: src/graphql/schema.json
+    includes:
+      - src/graphql/**/*.js
+    excludes:
+      - ./amplify/**
+    extensions:
+      amplify:
+        codeGenTarget: javascript
+        generatedFileName: ''
+        docsFilePath: src/graphql
+        region: ap-northeast-1
+        apiId: vkkqi7xkf5ekzocfaqw34txjve
+        maxDepth: 2
