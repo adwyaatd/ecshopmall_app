@@ -1,0 +1,77 @@
+{
+  "statuscode": 200,
+  "shops": [
+    {
+      "Data": "魚屋 うおうお",
+      "created_at": "2021/12/05 7: 59: 00",
+      "is_disabled": "False",
+      "decsription": "www",
+      "contact_url": "zzz",
+      "SK": "shop_1",
+      "img_url": "https://baseec-img-mng.akamaized.net/images/user/logo/a3fb6b17b54fdddb2d2aedd025a44ff9.png?imformat=generic&q=90&im=Resize,width=1200,height=1200,aspect=fit,type=normal;Crop,width=1200,height=1200,gravity=Center,allowExpansion",
+      "PK": "shop_1",
+      "url": "https://shop.youange.com/",
+      "modified_at": "2021/12/05 7: 59: 00"
+    },
+    {
+      "Data": "花屋 四葉",
+      "created_at": "2021/12/05 7: 59: 00",
+      "is_disabled": "False",
+      "decsription": "www",
+      "contact_url": "zzz",
+      "SK": "shop_1",
+      "img_url": "https://baseec-img-mng.akamaized.net/images/user/logo/a3fb6b17b54fdddb2d2aedd025a44ff9.png?imformat=generic&q=90&im=Resize,width=1200,height=1200,aspect=fit,type=normal;Crop,width=1200,height=1200,gravity=Center,allowExpansion",
+      "PK": "shop_1",
+      "url": "https://shop.youange.com/",
+      "modified_at": "2021/12/05 7: 59: 00"
+    },
+    {
+      "Data": "電気屋 でんでん",
+      "created_at": "2021/12/05 7: 59: 00",
+      "is_disabled": "False",
+      "decsription": "www",
+      "contact_url": "zzz",
+      "SK": "shop_1",
+      "img_url": "https://baseec-img-mng.akamaized.net/images/user/logo/a3fb6b17b54fdddb2d2aedd025a44ff9.png?imformat=generic&q=90&im=Resize,width=1200,height=1200,aspect=fit,type=normal;Crop,width=1200,height=1200,gravity=Center,allowExpansion",
+      "PK": "shop_1",
+      "url": "https://shop.youange.com/",
+      "modified_at": "2021/12/05 7: 59: 00"
+    },
+    {
+      "Data": "魚屋 うおうお",
+      "created_at": "2021/12/05 7: 59: 00",
+      "is_disabled": "False",
+      "decsription": "www",
+      "contact_url": "zzz",
+      "SK": "shop_1",
+      "img_url": "https://baseec-img-mng.akamaized.net/images/user/logo/a3fb6b17b54fdddb2d2aedd025a44ff9.png?imformat=generic&q=90&im=Resize,width=1200,height=1200,aspect=fit,type=normal;Crop,width=1200,height=1200,gravity=Center,allowExpansion",
+      "PK": "shop_1",
+      "url": "https://shop.youange.com/",
+      "modified_at": "2021/12/05 7: 59: 00"
+    },
+    {
+      "Data": "花屋 四葉",
+      "created_at": "2021/12/05 7: 59: 00",
+      "is_disabled": "False",
+      "decsription": "www",
+      "contact_url": "zzz",
+      "SK": "shop_1",
+      "img_url": "https://baseec-img-mng.akamaized.net/images/user/logo/a3fb6b17b54fdddb2d2aedd025a44ff9.png?imformat=generic&q=90&im=Resize,width=1200,height=1200,aspect=fit,type=normal;Crop,width=1200,height=1200,gravity=Center,allowExpansion",
+      "PK": "shop_1",
+      "url": "https://shop.youange.com/",
+      "modified_at": "2021/12/05 7: 59: 00"
+    },
+    {
+      "Data": "電気屋 でんでん",
+      "created_at": "2021/12/05 7: 59: 00",
+      "is_disabled": "False",
+      "decsription": "www",
+      "contact_url": "zzz",
+      "SK": "shop_1",
+      "img_url": "https://baseec-img-mng.akamaized.net/images/user/logo/a3fb6b17b54fdddb2d2aedd025a44ff9.png?imformat=generic&q=90&im=Resize,width=1200,height=1200,aspect=fit,type=normal;Crop,width=1200,height=1200,gravity=Center,allowExpansion",
+      "PK": "shop_1",
+      "url": "https://shop.youange.com/",
+      "modified_at": "2021/12/05 7: 59: 00"
+    }
+  ]
+}
