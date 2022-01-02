@@ -1,5 +1,6 @@
 {
-  "Shops": [
+  "statuscode": 200,
+  "shops": [
     {
       "Data": "魚屋 うおうお",
       "created_at": "2021/12/05 7: 59: 00",

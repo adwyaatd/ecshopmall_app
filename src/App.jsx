@@ -1,69 +1,22 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import "./styles.css";
 import Shops from "./shops.json";
-// import { InputTodo } from "./components/InputTodo";
-// import { Todo } from "./components/Todo";
-// import { CompletedTodo } from "./components/CompletedTodo";
 import { ShopsSection } from "./components/ShopsSection";
 export const App = () => {
-  const shops = Shops;
-  // const [todoText, setTodoText] = useState("");
+  console.log("レンダー");
+  const dummy_shop_json = Shops;
+  const [shops, setShops] = useState(dummy_shop_json);
 
-  // const [incompleteTodos, setIncompleteTodos] = useState([]);
-
-  // const [completeTodos, setCompleteTodos] = useState([]);
-
-  // const onChangeTodoText = (event) => setTodoText(event.target.value);
-
-
-  // const onClickAdd = () => {
-  //   if (todoText === "") return;
-  //   const newTodos = [...incompleteTodos, todoText];
-  //   setIncompleteTodos(newTodos);
-  //   setTodoText("");
-  // };
-
-  // const onClickDelete = (index) => {
-  //   const newTodos = [...incompleteTodos];
-  //   newTodos.splice(index, 1);
-  //   setIncompleteTodos(newTodos);
-  // };
-
-  // const onClickcomplete = (index) => {
-  //   const newTodos = [...incompleteTodos];
-  //   newTodos.splice(index, 1);
-  //   setIncompleteTodos(newTodos);
-
-  //   const newCompleteTodos = [...completeTodos, incompleteTodos[index]];
-  //   setCompleteTodos(newCompleteTodos);
-  // };
-
-  // const onClickBack = (index) => {
-  //   const newCompleteTodos = [...completeTodos];
-  //   newCompleteTodos.splice(index, 1);
-  //   setCompleteTodos(newCompleteTodos);
-
-  //   const newTodos = [...incompleteTodos, completeTodos[index]];
-  //   setIncompleteTodos(newTodos);
-  // };
+  useEffect(() => {
+    fetch("https://envy4ielah.execute-api.ap-northeast-1.amazonaws.com/dev/", { method: 'GET' })
+      .then(res => res.json())
+      .then(data => {
+        setShops(data)
+      })
+  }, [])
 
   return (
     <>
-      {/* <InputTodo
-        todoText={todoText}
-        onChangeTodoText={onChangeTodoText}
-        onClickAdd={onClickAdd}
-        disabled={incompleteTodos.length >= 5}
-      />
-      {incompleteTodos.length >= 5 && (
-        <p style={{ color: "red" }}>登録できるタスクは5個までです</p>
-      )}
-      <Todo
-        incompleteTodos={incompleteTodos}
-        onClickcomplete={onClickcomplete}
-        onClickDelete={onClickDelete}
-      />
-      <CompletedTodo completeTodos={completeTodos} onClickBack={onClickBack} /> */}
       <ShopsSection shops={shops} />
     </>
   );

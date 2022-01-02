@@ -2,11 +2,7 @@ import React from "react";
 import { ShopBox } from "./ShopBox";
 
 export const ShopsSection = (props) => {
-  console.log(props);
-  // const shopImg = props.shopImg;
-  const shops = props.shops.Shops;
-  console.log(shops);
-  console.log(typeof (shops));
+  const shops = props.shops.shops;
   return (
     <section className="shops-section">
       <h2>SHOPS</h2>
