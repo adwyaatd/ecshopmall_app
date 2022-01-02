@@ -1,52 +1,55 @@
 import React, { useState } from "react";
 import "./styles.css";
-import { InputTodo } from "./components/InputTodo";
-import { Todo } from "./components/Todo";
-import { CompletedTodo } from "./components/CompletedTodo";
-
+import Shops from "./shops.json";
+// import { InputTodo } from "./components/InputTodo";
+// import { Todo } from "./components/Todo";
+// import { CompletedTodo } from "./components/CompletedTodo";
+import { ShopsSection } from "./components/ShopsSection";
 export const App = () => {
-  const [todoText, setTodoText] = useState("");
+  const shops = Shops;
+  // const [todoText, setTodoText] = useState("");
 
-  const [incompleteTodos, setIncompleteTodos] = useState([]);
+  // const [incompleteTodos, setIncompleteTodos] = useState([]);
 
-  const [completeTodos, setCompleteTodos] = useState([]);
+  // const [completeTodos, setCompleteTodos] = useState([]);
 
-  const onChangeTodoText = (event) => setTodoText(event.target.value);
+  // const onChangeTodoText = (event) => setTodoText(event.target.value);
 
-  const onClickAdd = () => {
-    if (todoText === "") return;
-    const newTodos = [...incompleteTodos, todoText];
-    setIncompleteTodos(newTodos);
-    setTodoText("");
-  };
 
-  const onClickDelete = (index) => {
-    const newTodos = [...incompleteTodos];
-    newTodos.splice(index, 1);
-    setIncompleteTodos(newTodos);
-  };
+  // const onClickAdd = () => {
+  //   if (todoText === "") return;
+  //   const newTodos = [...incompleteTodos, todoText];
+  //   setIncompleteTodos(newTodos);
+  //   setTodoText("");
+  // };
 
-  const onClickcomplete = (index) => {
-    const newTodos = [...incompleteTodos];
-    newTodos.splice(index, 1);
-    setIncompleteTodos(newTodos);
+  // const onClickDelete = (index) => {
+  //   const newTodos = [...incompleteTodos];
+  //   newTodos.splice(index, 1);
+  //   setIncompleteTodos(newTodos);
+  // };
 
-    const newCompleteTodos = [...completeTodos, incompleteTodos[index]];
-    setCompleteTodos(newCompleteTodos);
-  };
+  // const onClickcomplete = (index) => {
+  //   const newTodos = [...incompleteTodos];
+  //   newTodos.splice(index, 1);
+  //   setIncompleteTodos(newTodos);
 
-  const onClickBack = (index) => {
-    const newCompleteTodos = [...completeTodos];
-    newCompleteTodos.splice(index, 1);
-    setCompleteTodos(newCompleteTodos);
+  //   const newCompleteTodos = [...completeTodos, incompleteTodos[index]];
+  //   setCompleteTodos(newCompleteTodos);
+  // };
 
-    const newTodos = [...incompleteTodos, completeTodos[index]];
-    setIncompleteTodos(newTodos);
-  };
+  // const onClickBack = (index) => {
+  //   const newCompleteTodos = [...completeTodos];
+  //   newCompleteTodos.splice(index, 1);
+  //   setCompleteTodos(newCompleteTodos);
+
+  //   const newTodos = [...incompleteTodos, completeTodos[index]];
+  //   setIncompleteTodos(newTodos);
+  // };
 
   return (
     <>
-      <InputTodo
+      {/* <InputTodo
         todoText={todoText}
         onChangeTodoText={onChangeTodoText}
         onClickAdd={onClickAdd}
@@ -60,7 +63,8 @@ export const App = () => {
         onClickcomplete={onClickcomplete}
         onClickDelete={onClickDelete}
       />
-      <CompletedTodo completeTodos={completeTodos} onClickBack={onClickBack} />
+      <CompletedTodo completeTodos={completeTodos} onClickBack={onClickBack} /> */}
+      <ShopsSection shops={shops} />
     </>
   );
 };
