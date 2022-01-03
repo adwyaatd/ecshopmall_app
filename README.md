@@ -1,7 +1,7 @@
 # アプリケーション名 : EcShopMall
 
 BASEなどのECショップのキュレーションサイトです。  
-URL：https://master.d1q4yyqt7f59ng.amplifyapp.com/
+URL：https://ecshopmall.work/
 
 なお、サーバーサイドは以下のリポジトリです。  
 - [API](https://github.com/adwyaatd/ecshopmall_api)
