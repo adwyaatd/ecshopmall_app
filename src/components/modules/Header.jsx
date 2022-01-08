@@ -31,7 +31,7 @@ export const Header = () => {
           <Typography variant="h6" className={classes.title}>
             EcShopMall
           </Typography>
-          <Button color="inherit">Login</Button>
+          <Button color="inherit"></Button>
         </Toolbar>
       </AppBar>
     </div>
