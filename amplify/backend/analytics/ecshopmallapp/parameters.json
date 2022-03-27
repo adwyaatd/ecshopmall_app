@@ -1,0 +1,21 @@
+{
+    "appName": "ecshopmallapp",
+    "roleName": "pinpointLambdaRole1ec4bf3e",
+    "cloudformationPolicyName": "cloudformationPolicy1ec4bf3e",
+    "cloudWatchPolicyName": "cloudWatchPolicy1ec4bf3e",
+    "pinpointPolicyName": "pinpointPolicy1ec4bf3e",
+    "authPolicyName": "pinpoint_amplify_1ec4bf3e",
+    "unauthPolicyName": "pinpoint_amplify_1ec4bf3e",
+    "authRoleName": {
+        "Ref": "AuthRoleName"
+    },
+    "unauthRoleName": {
+        "Ref": "UnauthRoleName"
+    },
+    "authRoleArn": {
+        "Fn::GetAtt": [
+            "AuthRole",
+            "Arn"
+        ]
+    }
+}
