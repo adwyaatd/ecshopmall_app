@@ -22,12 +22,5 @@
       "service": "Pinpoint",
       "providerPlugin": "awscloudformation"
     }
-  },
-  "hosting": {
-    "amplifyhosting": {
-      "service": "amplifyhosting",
-      "type": "cicd",
-      "lastPushTimeStamp": "2022-03-27T06:48:56.040Z"
-    }
   }
 }

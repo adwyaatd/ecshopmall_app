@@ -1,0 +1,60 @@
+{
+  "providers": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-ecshopmallapp-dev-111409-authRole",
+      "UnauthRoleArn": "arn:aws:iam::295468102380:role/amplify-ecshopmallapp-dev-111409-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::295468102380:role/amplify-ecshopmallapp-dev-111409-authRole",
+      "Region": "ap-northeast-1",
+      "DeploymentBucketName": "amplify-ecshopmallapp-dev-111409-deployment",
+      "UnauthRoleName": "amplify-ecshopmallapp-dev-111409-unauthRole",
+      "StackName": "amplify-ecshopmallapp-dev-111409",
+      "StackId": "arn:aws:cloudformation:ap-northeast-1:295468102380:stack/amplify-ecshopmallapp-dev-111409/9a3a41f0-a8bc-11ec-b523-0a36ad7098f5",
+      "AmplifyAppId": "du5vfu0719kq8"
+    }
+  },
+  "auth": {
+    "ecshopmallapp": {
+      "service": "Cognito",
+      "serviceType": "managed",
+      "providerPlugin": "awscloudformation",
+      "dependsOn": [],
+      "frontendAuthConfig": {
+        "socialProviders": [],
+        "usernameAttributes": [],
+        "signupAttributes": [],
+        "passwordProtectionSettings": {
+          "passwordPolicyCharacters": []
+        },
+        "mfaTypes": [],
+        "verificationMechanisms": []
+      },
+      "providerMetadata": {
+        "s3TemplateURL": "https://s3.amazonaws.com/amplify-ecshopmallapp-dev-111409-deployment/amplify-cfn-templates/auth/ecshopmallapp-cloudformation-template.json",
+        "logicalId": "authecshopmallapp"
+      },
+      "lastPushTimeStamp": "2022-03-27T03:21:55.017Z",
+      "output": {
+        "IdentityPoolId": "ap-northeast-1:abd51785-fce8-4fc7-9535-04a3f9fb0c15",
+        "IdentityPoolName": "ecshopmallapp_identitypool_71484b12__dev"
+      },
+      "lastPushDirHash": "J0M2aX7Uoxh4HeOtBU1/t4YCDrI="
+    }
+  },
+  "analytics": {
+    "ecshopmallapp": {
+      "service": "Pinpoint",
+      "providerPlugin": "awscloudformation",
+      "providerMetadata": {
+        "s3TemplateURL": "https://s3.amazonaws.com/amplify-ecshopmallapp-dev-111409-deployment/amplify-cfn-templates/analytics/pinpoint-cloudformation-template.json",
+        "logicalId": "analyticsecshopmallapp"
+      },
+      "lastPushTimeStamp": "2022-03-27T03:21:55.017Z",
+      "output": {
+        "appName": "ecshopmallapp-dev",
+        "Region": "ap-northeast-1",
+        "Id": "257742d7ed1d48f78a21ef5810cb34b7"
+      },
+      "lastPushDirHash": "szHfN+ZGWQ63P230a8AajYKLtI0="
+    }
+  }
+}

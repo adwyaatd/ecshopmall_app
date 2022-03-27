@@ -1,19 +1,49 @@
 {
   "dev": {
     "awscloudformation": {
-      "AuthRoleName": "amplify-ecshopmallapp-dev-111409-authRole",
-      "UnauthRoleArn": "arn:aws:iam::295468102380:role/amplify-ecshopmallapp-dev-111409-unauthRole",
-      "AuthRoleArn": "arn:aws:iam::295468102380:role/amplify-ecshopmallapp-dev-111409-authRole",
+      "AuthRoleName": "amplify-ecshopmallapp-dev-153424-authRole",
+      "UnauthRoleArn": "arn:aws:iam::295468102380:role/amplify-ecshopmallapp-dev-153424-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::295468102380:role/amplify-ecshopmallapp-dev-153424-authRole",
       "Region": "ap-northeast-1",
-      "DeploymentBucketName": "amplify-ecshopmallapp-dev-111409-deployment",
-      "UnauthRoleName": "amplify-ecshopmallapp-dev-111409-unauthRole",
-      "StackName": "amplify-ecshopmallapp-dev-111409",
-      "StackId": "arn:aws:cloudformation:ap-northeast-1:295468102380:stack/amplify-ecshopmallapp-dev-111409/9a3a41f0-a8bc-11ec-b523-0a36ad7098f5",
-      "AmplifyAppId": "du5vfu0719kq8"
+      "DeploymentBucketName": "amplify-ecshopmallapp-dev-153424-deployment",
+      "UnauthRoleName": "amplify-ecshopmallapp-dev-153424-unauthRole",
+      "StackName": "amplify-ecshopmallapp-dev-153424",
+      "StackId": "arn:aws:cloudformation:ap-northeast-1:295468102380:stack/amplify-ecshopmallapp-dev-153424/f37e4b50-ad97-11ec-87e1-0ea8a7c06a2d",
+      "AmplifyAppId": "d3febpz25u9da4"
     },
     "categories": {
       "auth": {
         "undefined": {}
+      },
+      "hosting": {
+        "amplifyhosting": {
+          "appId": "d3febpz25u9da4",
+          "type": "cicd"
+        }
+      }
+    }
+  },
+  "master": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-ecshopmallapp-master-163950-authRole",
+      "UnauthRoleArn": "arn:aws:iam::295468102380:role/amplify-ecshopmallapp-master-163950-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::295468102380:role/amplify-ecshopmallapp-master-163950-authRole",
+      "Region": "ap-northeast-1",
+      "DeploymentBucketName": "amplify-ecshopmallapp-master-163950-deployment",
+      "UnauthRoleName": "amplify-ecshopmallapp-master-163950-unauthRole",
+      "StackName": "amplify-ecshopmallapp-master-163950",
+      "StackId": "arn:aws:cloudformation:ap-northeast-1:295468102380:stack/amplify-ecshopmallapp-master-163950/16295470-ada1-11ec-a8cc-0eb3def6bdb3",
+      "AmplifyAppId": "d3febpz25u9da4"
+    },
+    "categories": {
+      "hosting": {
+        "amplifyhosting": {
+          "appId": "d3febpz25u9da4",
+          "type": "cicd"
+        }
+      },
+      "auth": {
+        "ecshopmallapp": {}
       }
     }
   }
