@@ -7,6 +7,7 @@ import { Footer } from "./components/modules/Footer";
 import awsconfig from './aws-exports';
 import Amplify, { Analytics } from 'aws-amplify';
 Amplify.configure(awsconfig);
+Analytics.configure(awsconfig);
 
 export const App = () => {
   console.log("レンダー");
