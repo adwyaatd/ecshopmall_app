@@ -1,11 +1,11 @@
 {
     "appName": "ecshopmallapp",
-    "roleName": "pinpointLambdaRole1ec4bf3e",
-    "cloudformationPolicyName": "cloudformationPolicy1ec4bf3e",
-    "cloudWatchPolicyName": "cloudWatchPolicy1ec4bf3e",
-    "pinpointPolicyName": "pinpointPolicy1ec4bf3e",
-    "authPolicyName": "pinpoint_amplify_1ec4bf3e",
-    "unauthPolicyName": "pinpoint_amplify_1ec4bf3e",
+    "roleName": "pinpointLambdaRole770ec30e",
+    "cloudformationPolicyName": "cloudformationPolicy770ec30e",
+    "cloudWatchPolicyName": "cloudWatchPolicy770ec30e",
+    "pinpointPolicyName": "pinpointPolicy770ec30e",
+    "authPolicyName": "pinpoint_amplify_770ec30e",
+    "unauthPolicyName": "pinpoint_amplify_770ec30e",
     "authRoleName": {
         "Ref": "AuthRoleName"
     },
