@@ -1,11 +1,11 @@
 {
   "version": "1",
   "cognitoConfig": {
-    "identityPoolName": "ecshopmallapp_identitypool_71484b12",
+    "identityPoolName": "ecshopmallapp_identitypool_7eb7ec47",
     "allowUnauthenticatedIdentities": true,
     "authSelections": "identityPoolOnly",
     "resourceName": "ecshopmallapp",
-    "sharedId": "71484b12",
+    "sharedId": "7eb7ec47",
     "serviceName": "Cognito",
     "useDefault": "manual"
   }
